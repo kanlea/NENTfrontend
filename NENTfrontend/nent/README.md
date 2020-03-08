@@ -1,3 +1,34 @@
+Restaurant API for NENT frontend task
+
+To run the application
+- clone the git repo to your computer
+- enter the src folder using 'cd src'
+- Check if you have node and npm 'node -v' and 'npm -v'
+- if not, install node and npm to your computer
+- then install the dependencies 'npm install'
+- build the project 'npm run build'
+- start the application 'npm start'
+- go to the web and find your localhost:3000
+
+Features implemented
+- View all data
+- View detailed data 
+- Filter data
+
+The Restaurant API web app design rationale
+- The design of the web app is suppose to be simple, hence the one page web app where the user can filter and call the data from the restaurant database.
+- The color tone is suppose to be warm to make it feel cozy like a restaurant (goes with the theme).
+- The UI was designed first in figma, then implemented as designed.
+
+Possible improvement
+- Improve run time performance
+- Improve code architecture
+
+Future work
+- Add test cases to check whether the application connect correctly
+- Give initial design layout or constraints 
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
