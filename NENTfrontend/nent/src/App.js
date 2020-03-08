@@ -5,8 +5,9 @@ const { getAll, getOne }= require('./db');
 
 function App() {
 
+    var allData = getAll();
     console.log('data is here');
-
+    console.log(allData);
 
   return ( <div className = "App">
     <header className = "App-header"></header>
