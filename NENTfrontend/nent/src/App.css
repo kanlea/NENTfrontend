@@ -17,9 +17,20 @@
 }
 
 .box{
-  background-color: white;
+  background-color: orange;
   width: 80%;
   height: 80%;
   opacity: 0.8;
+}
+
+.innerBox{
+  background-color: white;
+  margin-left: 10%;
+  width: 80%;
+  height: 80%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  opacity: 1;
 }
 

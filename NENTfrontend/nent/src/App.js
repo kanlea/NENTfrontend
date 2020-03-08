@@ -7,13 +7,16 @@ function App() {
 
     console.log('data is here');
 
-    var cursor = getOne();
-    console.log(cursor);
 
   return ( <div className = "App">
     <header className = "App-header"></header>
     <div className="box">
     <h1>Restaurant API</h1> 
+
+        <div className= "innerBox">
+            <p><u>List of restaurants</u><br></br></p>
+        </div>
+    
     <p><br></br><br></br><br></br><br></br></p>
 
     </div>
